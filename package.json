@@ -1,21 +1,21 @@
 {
   "name": "@jume-labs/eslint-config",
   "version": "1.0.0",
-  "description": "",
+  "description": "Eslint config for @jume-labs packages",
   "main": "index.js",
-  "type": "module",
   "keywords": [],
   "author": "Codescapade",
   "license": "MIT",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^7.15.0",
-    "@typescript-eslint/parser": "^7.15.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-import": "^2.29.1"
+    "eslint-config-prettier": "^9.1.0"
   },
   "peerDependencies": {
     "eslint": ">= 8",
-    "typescript": ">= 5"
+    "typescript": ">= 5",
+    "@typescript-eslint/eslint-plugin": "^7.15.0",
+    "@typescript-eslint/parser": "^7.15.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-simple-import-sort": "^12.1.1"
   },
   "devDependencies": {
     "@jume-labs/prettier-config": "^1.0.1",
